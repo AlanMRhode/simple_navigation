@@ -1,0 +1,19 @@
+Simple-Navigation is a ruby library for creating navigations (with multiple levels) for your Rails applications. Some of the key features include:
+
+	1)	define your navigation in a config file, not inside the views
+	2)	create as many navigation levels as you like
+	3)	render all your navigation levels as a nested tree or render each level separately
+	4)	automatic highlighting of the active navigation item
+
+Simple-Navigation basically works like this:
+
+	1)	You define your navigation with all its levels in the config-file
+	2)	In the view, you render your configured navigation using the helper-method render_navigation
+
+By default your navigation is configured in the file config/navigation.rb. To generate a template-file with comments in it use rails generate navigation_config. For each item you define a:
+
+	1)	a key which is used to identify active navigation tems for the controller
+	2)	a name as a simple string
+	3)	a url which is optional and can be a url_for, restful routes, named routes or any string
+
+If you want to define a sub navigation for a primary item you can specify a block for that item.

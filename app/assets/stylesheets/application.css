@@ -1,0 +1,56 @@
+li {
+	display: inline;
+	margin: 5%;
+}
+
+ul {
+	text-align: center;
+    padding: 0;
+    list-style-type: none;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+   	font-size: 15px;
+   	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: black;
+}
+
+#menu_simple_navigation .current {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#menu_simple_navigation {
+	margin: 0;
+}
+
+h1 {
+	text-align: center
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+img {
+	text-align: center;
+	display:block;
+	margin:auto;
+	width:60%;
+}
+
+p {
+	font-size: 20px;
+}
+
+.container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.center {
+	text-align: center;
+}

@@ -1,0 +1,20 @@
+<div class="container">	
+	<p>By default your navigation is configured in the file <strong>config/navigation.rb.</strong> To generate a template-file with comments in it use <strong>rails generate navigation_config.</strong></p> 
+	<p>In the config/navigation.rb file you define your navigation items as illustrated in the following example:</p>
+</div>
+<%= image_tag "primary.png" %>
+<div class="container">	
+	<p>This creates a primary navigation with three items. For each item you define a:</p>
+	<div class="center">
+		<p><strong>key</strong>: which is used to identify active navigation tems for the controller</p>
+		<p><strong>name</strong>: a simple string</p>
+		<p><strong>url</strong>: which is optional and can be a url_for, restful routes, named routes or any string</p>
+	</div>
+	<p>If you want to define a sub navigation for a primary item you can specify a block for that item:</p>
+</div>
+<%= image_tag "breadcrumb.png" %>
+<div class="container">	
+	<div class="center">
+		<p>For more on configuration, please visit <a href="https://github.com/codeplant/simple-navigation/wiki/Configuration"><strong>here!</strong></a></p>
+	</div>
+</div>
